@@ -1,6 +1,6 @@
 Name:           perl-XML-Filter-BufferText
 Version:        1.01
-Release:        16%{?dist}
+Release:        17%{?dist}
 Summary:        Filter to put all characters() in one event
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -53,6 +53,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.01-17
+- Mass rebuild 2013-12-27
+
 * Fri Aug 17 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.01-16
 - Specify all dependencies.
 
